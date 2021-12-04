@@ -3,29 +3,8 @@
     "main": {
       "remoteTrackingBranchID": null,
       "remote": false,
-      "target": "C2",
+      "target": "C1",
       "id": "main",
-      "type": "branch"
-    },
-    "bugFix": {
-      "remoteTrackingBranchID": null,
-      "remote": false,
-      "target": "C3",
-      "id": "bugFix",
-      "type": "branch"
-    },
-    "side": {
-      "remoteTrackingBranchID": null,
-      "remote": false,
-      "target": "C6",
-      "id": "side",
-      "type": "branch"
-    },
-    "another": {
-      "remoteTrackingBranchID": null,
-      "remote": false,
-      "target": "C7",
-      "id": "another",
       "type": "branch"
     }
   },
@@ -34,7 +13,7 @@
       "type": "commit",
       "parents": [],
       "author": "Peter Cottle",
-      "createTime": "Sat Dec 04 2021 12:08:47 GMT+0300 (Москва, стандартное время)",
+      "createTime": "Sat Dec 04 2021 12:09:13 GMT+0300 (Москва, стандартное время)",
       "commitMessage": "Быстрый коммит. А надо!",
       "id": "C0",
       "rootCommit": true
@@ -45,75 +24,15 @@
         "C0"
       ],
       "author": "Peter Cottle",
-      "createTime": "Sat Dec 04 2021 12:08:47 GMT+0300 (Москва, стандартное время)",
+      "createTime": "Sat Dec 04 2021 12:09:13 GMT+0300 (Москва, стандартное время)",
       "commitMessage": "Быстрый коммит. А надо!",
       "id": "C1"
-    },
-    "C2": {
-      "type": "commit",
-      "parents": [
-        "C1"
-      ],
-      "author": "Peter Cottle",
-      "createTime": "Sat Dec 04 2021 12:08:47 GMT+0300 (Москва, стандартное время)",
-      "commitMessage": "Быстрый коммит. А надо!",
-      "id": "C2"
-    },
-    "C3": {
-      "type": "commit",
-      "parents": [
-        "C1"
-      ],
-      "author": "Peter Cottle",
-      "createTime": "Sat Dec 04 2021 12:08:47 GMT+0300 (Москва, стандартное время)",
-      "commitMessage": "Быстрый коммит. А надо!",
-      "id": "C3"
-    },
-    "C4": {
-      "type": "commit",
-      "parents": [
-        "C0"
-      ],
-      "author": "Peter Cottle",
-      "createTime": "Sat Dec 04 2021 12:08:47 GMT+0300 (Москва, стандартное время)",
-      "commitMessage": "Быстрый коммит. А надо!",
-      "id": "C4"
-    },
-    "C5": {
-      "type": "commit",
-      "parents": [
-        "C4"
-      ],
-      "author": "Peter Cottle",
-      "createTime": "Sat Dec 04 2021 12:08:47 GMT+0300 (Москва, стандартное время)",
-      "commitMessage": "Быстрый коммит. А надо!",
-      "id": "C5"
-    },
-    "C6": {
-      "type": "commit",
-      "parents": [
-        "C5"
-      ],
-      "author": "Peter Cottle",
-      "createTime": "Sat Dec 04 2021 12:08:47 GMT+0300 (Москва, стандартное время)",
-      "commitMessage": "Быстрый коммит. А надо!",
-      "id": "C6"
-    },
-    "C7": {
-      "type": "commit",
-      "parents": [
-        "C5"
-      ],
-      "author": "Peter Cottle",
-      "createTime": "Sat Dec 04 2021 12:08:47 GMT+0300 (Москва, стандартное время)",
-      "commitMessage": "Быстрый коммит. А надо!",
-      "id": "C7"
     }
   },
   "tags": {},
   "HEAD": {
-    "target": "main",
     "id": "HEAD",
+    "target": "main",
     "type": "general ref"
   }
 }
